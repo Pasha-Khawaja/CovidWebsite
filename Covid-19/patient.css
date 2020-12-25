@@ -1,0 +1,126 @@
+.bg-img {
+  background-image: url("download.jpg");
+  min-height: 380px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+*{
+	margin: 0;
+	padding: 0
+	font-family: Century Gothic;
+}
+
+.wrapper{
+
+	top: 50%;
+	width: 100%;
+	padding: 0 0px;
+	background: transparent;
+}
+ 
+h3{
+	max-width: 450px;
+	margin: 0 auto;
+	color: black;
+	font-size: 30px;
+	color: white;
+}
+
+.Form{
+	max-width: 450px;
+	margin: 0 auto;
+	background: maroon;
+	padding: 30px;
+	border-radius: 5px;
+	display: flex;
+}
+
+.Input{
+	display: flex;
+	flex-direction: column;
+	margin-right: 4%;
+	color: white;
+}
+
+.input-form{
+	width: 50%;
+}
+
+.Input, .input-form{
+	margin: 0px 0;
+	background: transparent;
+	border: 1px;
+	border-bottom: 2px solid transparent;
+}
+
+.button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button {
+  background-color: grey; 
+  color: black; 
+  border: 2px solid #4CAF50;
+  border-radius: 16px;
+}
+
+.button:hover {
+  background-color: #B22222;
+  color: white;
+}
+
+ul li{
+	float: center;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	font-size: 16px;
+}
+
+ul li a, ul li input{
+	float: left;
+	text-decoration: italic;
+	color: black;
+	padding-right: 15px;
+	border: hidden;
+	text-decoration: none;
+}
+
+input[type=submit]{
+	font-size: 16px;
+}
+
+input[type=text], input[type=number] {
+  border: none;
+  border-bottom: 2px solid red;
+  color: white;
+}
+input[type=text]:focus,input[type=number]:focus {
+  background-color: #B22222;
+}
+::placeholder {
+	color:black;
+}
